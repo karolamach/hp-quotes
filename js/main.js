@@ -17,11 +17,14 @@
                     "We’ve all got both light and dark inside us. What matters is the part we choose to act on. That’s who we really are.",
                     "Every human life is worth the same, and worth saving.",
                     "Never trust anything that can think for itself if you can’t see where it keeps its brain.",
-                    "You sort of start thinking anything’s possible if you’ve got enough nerve."
+                    "You sort of start thinking anything’s possible if you’ve got enough nerve.",
+                    "Just because you have the emotional range of a teaspoon doesn’t mean we all have. ",
+                    "Dark and difficult times lie ahead. Soon we must all face the choice between what is right and what is easy. "
+
     ];
     
     // RANDOM CHOSE FROM ALL QUOTES
-    let randomQuote = Math.floor(Math.random() * 12);
+    let randomQuote = Math.floor(Math.random() * 14);
     
     
     function showText(e) {
