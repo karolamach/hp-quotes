@@ -12,14 +12,14 @@
                     "But you know, happiness can be found even in the darkest of times, if one only remembers to turn on the light.",
                     "It matters not what someone is born, but what they grow to be.",
                     "Things we lose have a way of coming back to us in the end, if not always in the way we expect. ",
-                    
-
-
+                    "I think I’ll just go down and have some pudding and wait for it all to turn up — it always does in the end. ",
+                    "I mean, it’s sort of exciting, isn’t it, breaking the rules? ",
+                    "We’ve all got both light and dark inside us. What matters is the part we choose to act on. That’s who we really are."
 
     ];
     
     // RANDOM CHOSE FROM ALL QUOTES
-    let randomQuote = Math.floor(Math.random() * 6);
+    let randomQuote = Math.floor(Math.random() * 9);
     
     
     function showText(e) {
