@@ -14,12 +14,13 @@
                     "Things we lose have a way of coming back to us in the end, if not always in the way we expect. ",
                     "I think I’ll just go down and have some pudding and wait for it all to turn up — it always does in the end. ",
                     "I mean, it’s sort of exciting, isn’t it, breaking the rules? ",
-                    "We’ve all got both light and dark inside us. What matters is the part we choose to act on. That’s who we really are."
+                    "We’ve all got both light and dark inside us. What matters is the part we choose to act on. That’s who we really are.",
+                    "Every human life is worth the same, and worth saving."
 
     ];
     
     // RANDOM CHOSE FROM ALL QUOTES
-    let randomQuote = Math.floor(Math.random() * 9);
+    let randomQuote = Math.floor(Math.random() * 10);
     
     
     function showText(e) {
