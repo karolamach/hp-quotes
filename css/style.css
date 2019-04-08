@@ -1,20 +1,22 @@
+/* FOR WHOLE DOCUMENT */
 body {
     box-sizing: border-box;
     background-color: #191919;
     font-family: 'Montserrat', sans-serif;
 }
+/* FIRST HEADER */
 h1{
     color: goldenrod;
     padding: 5px 0px;
 }
 
-
+/* SECOND HEADER */
 h2 {
     padding: 5px 0px;
     color: #f5f5dc;
 }
 
-
+/* MAIN BOX */
 .wrap {
     height: 260px;
     width: 450px;
@@ -26,13 +28,13 @@ h2 {
     top: 5%;
 }
 
-
+/* IMAGE BUTTON  */
 #lightning {
     display: inline;
     position: static;
     cursor: pointer;
 }
-
+/* BOX WITH QOUTES */
 #box {
     height: 120px;
     width: 450px;
@@ -41,7 +43,7 @@ h2 {
     margin-top: 20px;
     border-radius: 10px;
 }
-
+/* RANDOM QUOTES SHOWN */
 p {
     margin: 0 auto;
     vertical-align: middle;
@@ -52,7 +54,7 @@ p {
     color:goldenrod;
     font-weight: bold;
 }
-
+/* RESET BUTTON */
 #reset {
     margin-top: 35%;
     position: relative;
@@ -68,6 +70,7 @@ p {
     font-weight: 600;
 }
 
+/* BUTTON DURING ACTION */
 #reset:active{
     background-color: white;
     color: goldenrod;
@@ -76,3 +79,4 @@ p {
     background-color: white;
     color: goldenrod;
 }
+/* BUTTON DURING ACTION STOP */
