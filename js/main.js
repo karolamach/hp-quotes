@@ -15,12 +15,13 @@
                     "I think I’ll just go down and have some pudding and wait for it all to turn up — it always does in the end. ",
                     "I mean, it’s sort of exciting, isn’t it, breaking the rules? ",
                     "We’ve all got both light and dark inside us. What matters is the part we choose to act on. That’s who we really are.",
-                    "Every human life is worth the same, and worth saving."
-
+                    "Every human life is worth the same, and worth saving.",
+                    "Never trust anything that can think for itself if you can’t see where it keeps its brain.",
+                    "You sort of start thinking anything’s possible if you’ve got enough nerve."
     ];
     
     // RANDOM CHOSE FROM ALL QUOTES
-    let randomQuote = Math.floor(Math.random() * 10);
+    let randomQuote = Math.floor(Math.random() * 12);
     
     
     function showText(e) {
